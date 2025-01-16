@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form method="post" action="" enctype="multipart/form-data">
+            <div>
+                <label>First Name</label>
+                <br/>
+                <input 
+                type="text"
+                name="fist name "
+                placeholder="enter your name"/>
+            </div>
+            <div>
+                <label>Email</label> 
+                <br/>
+                <input
+                type="email"
+                name="eml"
+                placeholder="enter your email"/>
+    
+            </div>
+            <div>
+                <label>Password</label>
+                <br/>
+                <input
+                type="password"
+                name="pswd"
+                placeholder="enter your password"/>
+            </div>
+            <div>
+                <label>Phone</label>
+                <br/>
+                <input
+                type="tel"
+                name="mobile"
+                placeholder="enter your mobile number"/>
+
+            </div>
+            <div>
+                <label for="maleid">Male</label>
+                <input
+                type="radio"
+                name="gender"
+                value="male"
+                id="maleid"/>
+                <label for="femaleid">Female</label>
+                <input
+                type="radio"
+                name="gender"
+                value="female"
+                id="femaleid"/>
+                <label for="otherid">Others</label>
+                <input
+                type="radio"
+                name="gender"
+                value="others"
+                id="otherid"/>
+
+            </div>
+            <div>
+                <label>Age</label>
+                <input
+                type="number"
+                min="18"
+                max="60"/>
+            </div>
+            <div>
+                <label>Address</label>
+                <br/>
+                <textarea cols="30" rows="3"></textarea>
+            </div>
+            <div>
+                <label>State</label>
+                <select name="st">
+                    <option>Select</option>
+                    <option>Kerala</option>
+                    <option>Tamilnadu</option>
+                    <option>Karnataka</option>
+                </select>
+            </div>
+            <div>
+                <label>Upload your photo</label>
+                <input
+                type="file"
+                name="img"/>
+            </div>
+            <div>
+                <input 
+                type="checkbox"
+                name="Agree"
+                value="agree"/>
+                <label>I agree the contract</label>
+            </div>
+            <button type ="submit">Submit</button>
+
+        </form>
+    </div>
+</body>
+</html>
