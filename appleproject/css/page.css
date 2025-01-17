@@ -6,3 +6,44 @@ h1{
 p{
    text-align: justify; 
 }
+body{
+   /* background-color: aqua;
+    background-image: url("./pexels-katja-79053-592077.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-image: linear-gradient(360deg transparent,yellow);
+    background:-webkit-linear-gradient(360deg,transparent,yellow);
+    background: -o-repeating-linear-gradient(360deg,transparent,yellow);
+    
+}
+div{
+    padding:20px ;
+    display: flex;
+    background-image: url("./pexels-katja-79053-592077.jpg");
+    background-size: cover;
+
+}
+ul{padding: 20px;
+    display: flex;
+    background-image: url("./pexels-katja-79053-592077.jpg");
+
+
+}
+
+
+.aboutp{
+    /*padding: 20px;*/
+
+     border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 400px;
+    font-size: 35px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-image:url("./pexels-katja-79053-592077.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
